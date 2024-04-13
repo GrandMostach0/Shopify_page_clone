@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 8px ;
+    padding: 0px 20px;
     position: sticky;
     width: 100%;
     height: 50px;
@@ -10,19 +10,17 @@
 }
 
 .menu-left, .menu-right{
-    border: 1px solid black;
-}
-
-.menu-left, .menu-right{
+    flex: 1;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+}
+
+.menu-right{
+    justify-content: center;
 }
 
 .menu-logo-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 16%;
 }
 
 ul{
@@ -32,8 +30,9 @@ ul{
 }
 
 ul li{
-    margin: 0px 8px ;
+    margin: 0px 20px;
     color: rgb(113, 112, 112);
+    cursor: pointer;
 }
 
 ul li:hover{

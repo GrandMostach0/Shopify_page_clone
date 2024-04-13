@@ -1,0 +1,46 @@
+.dropdown-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.toggle-button {
+    background-color: #ffffff;
+    color: #717070;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: none;
+    letter-spacing: 1px;
+}
+
+.toggle-button .cared-down-icon {
+    margin-left: 3px;
+}
+
+.menu-items {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 280px;
+    top: 100%;
+    left: 0;
+    padding: 2px 10px;
+    list-style-type: none;
+    margin: 0;
+    display: none;
+    box-shadow: 0px 10px 50px 13px rgba(0, 0, 0, 0.1);
+}
+
+.menu-items li {
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.dropdown-menu .menu-items {
+    display: block;
+}
+
+.toggle-button.is-open {
+    color: black;
+    font-weight: bold;
+}

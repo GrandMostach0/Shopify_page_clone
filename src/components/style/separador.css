@@ -1,5 +1,4 @@
 .separadorContainer{
-    border: 1px solid black;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -27,7 +26,7 @@ hr{
     font-size: 1.2rem;
     text-wrap: pretty;
     margin-bottom: 35px;
-    color: rgb(80, 80, 80);
+    color: #505050;
 }
 
 .textoSeparador a{
