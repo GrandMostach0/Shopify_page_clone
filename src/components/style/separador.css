@@ -42,3 +42,11 @@ hr{
     display: flex;
     align-items: start;
 }
+
+.icon-ancor {
+    transition: transform 0.3s ease;
+}
+
+.ancors:hover .icon-ancor {
+    transform: translateX(5px);
+}
