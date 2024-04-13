@@ -1,0 +1,44 @@
+.separadorContainer{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 20px;
+}
+
+.textoSeparador{
+    width: 33%;
+}
+
+.separador-title{
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+hr{
+    width: 55%;
+    height: 5px;
+    background-color: #318122;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.textoSeparador p{
+    font-size: 1.2rem;
+    text-wrap: pretty;
+    margin-bottom: 35px;
+    color: rgb(80, 80, 80);
+}
+
+.textoSeparador a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #318122;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2rem;
+}
+
+.ancors{
+    display: flex;
+    align-items: start;
+}
