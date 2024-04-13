@@ -3,6 +3,7 @@ import LogoPage from '../../assets/shopify-dev-logo-dark.svg';
 import DropdownMenu from '../DropdownMenu';
 import '../style/menuStyle.css';
 import Moon from '../icons/IconLuna';
+import IconSearch from '../icons/IconSearch';
 
 const subMenuSolutions = [
   "Build and customize your Store",
@@ -43,7 +44,11 @@ function Menu(){
           </ul>
         </div>
         <div className="menu-right">
-          <input type="search" />
+          <div className="inputSearch">
+            <IconSearch />
+            <p>Search</p>
+            <p className='iconSlash'>/</p>
+          </div>
           <ul>
             <li>
               <Moon />

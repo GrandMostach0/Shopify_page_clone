@@ -31,7 +31,7 @@ ul{
 
 ul li{
     margin: 0px 20px;
-    color: rgb(113, 112, 112);
+    color: #717070;
     cursor: pointer;
 }
 
@@ -47,4 +47,14 @@ ul li:hover{
 .text-bold:hover {
     font-weight: bold;
     color: #35a721;
+}
+
+.inputSearch{
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 140px;
+    padding: 0px 5px;
+    border-radius: 25px;
 }
