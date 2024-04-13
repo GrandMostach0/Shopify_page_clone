@@ -1,0 +1,33 @@
+.menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid blue;
+    padding: 8px ;
+}
+
+.menu-left, .menu-right{
+    border: 1px solid black;
+}
+
+.menu-left, .menu-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu-logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+ul li{
+    margin: 0px 8px ;
+}
