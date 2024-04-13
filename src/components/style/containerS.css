@@ -1,0 +1,19 @@
+.containerS{
+    margin: auto 10%;
+}
+
+.container-images{
+    margin: 20px 0px;
+    padding: 40px 0px;
+    border-top: 2px dotted blue;
+    border-bottom: 2px dotted blue;
+
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 20px;
+}
+
+.container-images p{
+    border: 1px solid red;
+    text-align: center;
+}
