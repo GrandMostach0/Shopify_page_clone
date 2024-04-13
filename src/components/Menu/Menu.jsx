@@ -47,7 +47,7 @@ function Menu(){
           <input type="search" />
           <ul>
             <li>Log in</li>
-            <li>Sing up</li>
+            <li className='text-bold'>Sing up</li>
           </ul>
         </div>
       </nav>
