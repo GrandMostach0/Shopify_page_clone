@@ -1,8 +1,8 @@
 import React from 'react';
 import LogoPage from '../../assets/shopify-dev-logo-dark.svg';
 import DropdownMenu from '../DropdownMenu';
-import Cared_down from '../icons/cared_down';
 import '../style/menuStyle.css';
+import Moon from '../icons/IconLuna';
 
 const subMenuSolutions = [
   "Build and customize your Store",
@@ -27,15 +27,14 @@ function Menu(){
             <img src={LogoPage} alt="LogoPagina" />
           </div>
           <ul>
-            <li className='dropMenus'>
+            <li className="dropMenus">
               <DropdownMenu
                 menuName="Solutions"
                 subMenuItems={subMenuSolutions}
               />
-              
             </li>
             <li>Blog</li>
-            <li className='dropMenus'>
+            <li className="dropMenus">
               <DropdownMenu
                 menuName="Documentations"
                 subMenuItems={subMenuDocumentations}
@@ -46,8 +45,11 @@ function Menu(){
         <div className="menu-right">
           <input type="search" />
           <ul>
+            <li>
+              <Moon />
+            </li>
             <li>Log in</li>
-            <li className='text-bold'>Sing up</li>
+            <li className="text-bold">Sing up</li>
           </ul>
         </div>
       </nav>
