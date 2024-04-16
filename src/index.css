@@ -7,12 +7,11 @@
   /*DARK MODE*/
   --body-dark-mode: #0D1313:
   --color-green-bold: #318122;
-  
 }
 
 body{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #fafbfb;
+  font-family: 'Inter Variable', sans-serif;
 }
 
 p{

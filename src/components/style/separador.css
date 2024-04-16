@@ -1,18 +1,21 @@
 .separadorContainer{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
     padding: 0px 20px;
-    background-color: #F6F6F7;
+    background-color: #ffffff;
+    padding: 36px 0px;
+    display: flow-root;
+    height: 100vh;
 }
 
-.textoSeparador{
-    width: 33%;
+.separadorContainerText{
+    background-color: #F6F6F7;
+    height: 98%;
+    padding: 96px 0px;
 }
 
 .separador-title{
     font-size: 3rem;
     font-weight: 800;
+    color: #202223;
 }
 
 hr{
@@ -23,17 +26,36 @@ hr{
     margin-bottom: 40px;
 }
 
+.textoSeparador{
+    display: flow-root;
+    margin: 0 10%;
+    position: relative;
+}
+
+.separadorText{
+    align-items: center;
+    width: 40%;
+}
+
+.imagen-container{
+    position: absolute;
+    top: -36%;
+    right: 0;
+}
+
 .textoSeparador p{
-    font-size: 1.2rem;
+    font-size: 18px;
+    line-height: 28px;
     text-wrap: pretty;
     margin-bottom: 35px;
-    color: #505050;
+    color: #5c5f62;
+    
 }
 
 .textoSeparador a{
     text-decoration: none;
     font-weight: bold;
-    color: #318122;
+    color: #286d1d;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.2rem;
 }
