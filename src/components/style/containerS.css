@@ -1,12 +1,13 @@
 .containerS{
-    margin: auto 10%;
+    margin: 56px 10%;
+
 }
 
 .container-images{
-    margin: 20px 0px;
-    padding: 40px 0px;
-    border-top: 2px dotted blue;
-    border-bottom: 2px dotted blue;
+    padding-top: 64px;
+    padding-bottom: 56px;
+    border-top: 2px dotted rgba(53, 167, 33, 0.4);
+    border-bottom: 2px dotted rgba(53, 167, 33, 0.4);
 
     display: grid;
     grid-template-columns: repeat(7, 1fr);
